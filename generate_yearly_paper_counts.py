@@ -53,7 +53,6 @@ def get_paper_count(key, year):
 
 
 if __name__ == "__main__":
-    print(get_fields_abbreviations())
     if len(sys.argv) < 2:
         print("Please supply output file")
     else:
@@ -74,7 +73,7 @@ if __name__ == "__main__":
                 count = get_paper_count(key, year)
                 yearly_count.append({"year": year, "paperCount": count})
 
-            yearly_count.append({"key": key, "name": name, "yearlyCount": yearly_count})
+            metadata.append({"key": key, "name": name, "yearlyCount": yearly_count})
 
 
         with open(output_filename,"w") as output_file:
