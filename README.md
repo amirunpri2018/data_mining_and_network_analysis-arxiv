@@ -6,15 +6,15 @@ Description
 
 Project developed during Data Mining Course at AGH University of Science And Technology. Project has two stages:
 
-- data mining stage
-- netowrk analysis stage
+- [data mining stage](documentation/data_mining_stage)
+- [netowrk analysis stage](documentation/network_analysis_stage)
 
 Results
 -------
 
-- data mining stage results
-- preliminary data analysis results
-- network analysis stage results
+- [data mining stage results](documentation/data_mining_stage_results)
+- [preliminary data analysis results](documentation/preliminary_data_analysis_results)
+- [network analysis stage results](documentation/network_analysis_stage_results)
 
 
 
