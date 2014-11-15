@@ -3,7 +3,7 @@ Data mining stage results
 
 Yearly papercounts:
 
-| Year          | Paper count   | Year          | Paper count   | Year          | Paper count   |
+| __Year__      |__Paper count__ |___Year__     |___Paper count___|__Year__     |__Paper count__|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1991          | 302           | 2000          | 30179         | 2009          | 64045         |
 | 1992          | 3261          | 2001          | 32735         | 2010          | 70125         |
@@ -14,4 +14,6 @@ Yearly papercounts:
 | 1997          | 19624         | 2006          | 48671         |
 | 1998          | 24052         | 2007          | 55144         |
 | 1999          | 27444         | 2008          | 58742         |
+
+Yearly paper count grows in a nearly linear fashion. 
 
