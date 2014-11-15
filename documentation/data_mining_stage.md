@@ -38,6 +38,8 @@ In each page articles are contained inside __dl__ tag. With pairs of __dt__ and 
 - YYMM.NNNN (e.g. 1411.0027 leads to astrophysics paper from 2014 October)
 - {field_name}/YYMM201 (e.g. math/9601201 leads to mathematics paper from 1996 January)
 
+Article ids can have version appended in form: "v" + number
+
 From each article we can also extract paper authors or more importantly their ids, since we can't get them through API.
 
 They're inside __dd__ tags inside __div__ with class="list-authors". Inside link tags full names are embedded and in href attribute exits id in form: {garbage}au:+{author_id}/{garbage}.
@@ -47,7 +49,7 @@ Script [harvest_article_ids.py](../harvest_article_ids.py) extracts both article
 Getting rest of the article data
 --------------------------------
 
-arXiv has an API that allows to download info about specific articles given that we have their ids. Data is returned as an nicely-formatted XML. API URL: http://export.arxiv.org/api/query?id_list={comma_separated_list_of_ids}. We can provide up to 10 ids in one request. Returned XML is in form (example):
+arXiv has an API that allows to download info about specific articles given that we have their ids. Data is returned as an nicely-formatted XML. API URL: http://export.arxiv.org/api/query?id_list={comma_separated_list_of_ids}. We can provide up to 10 ids in one request. Returned XML is in form:
 
 ```xml
 <entry>
@@ -69,3 +71,5 @@ arXiv has an API that allows to download info about specific articles given that
     <category term="{category abbr.}"/>
   </entry>
 ```
+
+Data from xml is then merged with data from http crawling and form the final dataset.
