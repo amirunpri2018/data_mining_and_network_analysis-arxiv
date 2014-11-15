@@ -15,13 +15,7 @@ Each field has an abbreviation assigned e.g .
 - quantitative finance : q-fin
 - statistics : stat
 
-Users can view article listings for each year under:
-
-http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year} 
-
-Example: http://arxiv.org/list/math/00
-
-Results are paged. To cycle through all articles two additional parameters passed in query string are required: skip, show.
+Users can view article listings for each year under list route. Results are paged, thus to cycle through all articles two number parameters are passed in query string to specify which page we need.
 
 http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year}?skip={number_of_articles}&show={number_of_articles}
 
