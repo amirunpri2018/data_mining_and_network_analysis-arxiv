@@ -15,12 +15,24 @@ Each field has an abbreviation assigned e.g .
 - quantitative finance : q-fin
 - statistics : stat
 
+Iterating over all articles
+---------------------------
+
 Users can view article listings for each year under list route. Results are paged, thus to cycle through all articles two number parameters are passed in query string to specify which page we need.
 
 http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year}?skip={number_of_articles}&show={number_of_articles}
 
 Example: http://arxiv.org/list/math/00?skip=50&show=25 (show articles for Mathematics and year 2000 from 50 to 75)
 
-It is helpful to know beforehan how many articles for given field and year are there. Script [generate_yearly_paper_counts.py](../generate_yearly_paper_counts.py) does precisely that and dumps the results into a json file.
+It is helpful to know beforehand how many articles for given field and year are there. Script [generate_yearly_paper_counts.py](../generate_yearly_paper_counts.py) does precisely that and dumps the results into a json file.
+
+Having that knowledge under belt we can generate set of links that we need to crawl in order to gather the data we need.
+
+Extracting articles identificators
+----------------------------------
+
+Using generated previously links we can can extract from each page useful information about article. We can extrac its id and ids of its authors along with their full names. Unfortunately listings don't show any info about the abstracts. For that we'll crawle arXiv API.
+
+In each page articles are contained inside <dl> tag. With pairs of <dt> and <dd> tags. <dt> tags contain
 
 
