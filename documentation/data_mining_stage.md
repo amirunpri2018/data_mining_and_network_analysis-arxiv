@@ -49,6 +49,7 @@ Getting rest of the article data
 
 arXiv has an API that allows to download info about specific articles given that we have their ids. Data is returned as an nicely-formatted XML. API URL: http://export.arxiv.org/api/query?id_list={comma_separated_list_of_ids}. We can provide up to 10 ids in one request. Returned XML is in form:
 
+```xml
 <entry>
     <id>http://arxiv.org/abs/cs/9901002v1</id>
     <updated>1999-01-10T03:21:23Z</updated>
@@ -86,4 +87,4 @@ being the use of on-line, rather than self-play.
     <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
     <category term="I.2.6" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
-
+```
