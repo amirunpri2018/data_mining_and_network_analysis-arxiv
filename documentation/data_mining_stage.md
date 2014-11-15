@@ -17,6 +17,10 @@ Each field has an abbreviation assigned e.g .
 
 Users can view article listings for each year under:
 
-http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year} (example for Mathematics and year 20__00__: http://arxiv.org/list/math/00)
+http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year} (example for Mathematics and year 2000: http://arxiv.org/list/math/00)
+
+Results are paged. To cycle through all articles two additional parameters passed in query string are required: skip, show.
+
+http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year}?skip={number_of_articles}&show={number_of_articles}
 
 
