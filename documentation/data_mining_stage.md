@@ -49,4 +49,41 @@ Getting rest of the article data
 
 arXiv has an API that allows to download info about specific articles given that we have their ids. Data is returned as an nicely-formatted XML. API URL: http://export.arxiv.org/api/query?id_list={comma_separated_list_of_ids}. We can provide up to 10 ids in one request. Returned XML is in form:
 
+<entry>
+    <id>http://arxiv.org/abs/cs/9901002v1</id>
+    <updated>1999-01-10T03:21:23Z</updated>
+    <published>1999-01-10T03:21:23Z</published>
+    <title>KnightCap: A chess program that learns by combining TD(lambda) with
+  game-tree search</title>
+    <summary>  In this paper we present TDLeaf(lambda), a variation on the TD(lambda)
+algorithm that enables it to be used in conjunction with game-tree search. We
+present some experiments in which our chess program ``KnightCap'' used
+TDLeaf(lambda) to learn its evaluation function while playing on the Free
+Internet Chess Server (FICS, fics.onenet.net). The main success we report is
+that KnightCap improved from a 1650 rating to a 2150 rating in just 308 games
+and 3 days of play. As a reference, a rating of 1650 corresponds to about level
+B human play (on a scale from E (1000) to A (1800)), while 2150 is human master
+level. We discuss some of the reasons for this success, principle among them
+being the use of on-line, rather than self-play.
+</summary>
+    <author>
+      <name>Jonathan Baxter</name>
+    </author>
+    <author>
+      <name>Andrew Tridgell</name>
+    </author>
+    <author>
+      <name>Lex Weaver</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">MACHINE LEARNING Proceedings of the Fifteenth International
+  Conference (ICML '98), ISBN 1-55860-556-8, ISSN 1049-1910, Madison WISCONSIN,
+  July 24-27 1998, pages 28-36</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/cs/9901002v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/cs/9901002v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.2.6" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
 
