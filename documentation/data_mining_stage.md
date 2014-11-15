@@ -51,28 +51,21 @@ arXiv has an API that allows to download info about specific articles given that
 
 ```xml
 <entry>
-    <id>http://arxiv.org/abs/cs/9901002v1</id>
-    <updated>1999-01-10T03:21:23Z</updated>
-    <published>1999-01-10T03:21:23Z</published>
-    <title>KnightCap: A chess program that learns by combining TD(lambda) with
-  game-tree search</title>
-    <summary>Summary text</summary>
+    <id>http://arxiv.org/abs/{article id}</id>
+    <updated>{date}</updated>
+    <published>{date}</published>
+    <title>{article title}</title>
+    <summary>{Summary text}</summary>
     <author>
-      <name>Jonathan Baxter</name>
+      <name>{author name}</name>
     </author>
-    <author>
-      <name>Andrew Tridgell</name>
-    </author>
-    <author>
-      <name>Lex Weaver</name>
-    </author>
-    <arxiv:comment>9 pages</arxiv:comment>
-    <arxiv:journal_ref></arxiv:journal_ref>
-    <link href="http://arxiv.org/abs/cs/9901002v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/cs/9901002v1" rel="related" type="application/pdf"/>
-    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="I.2.6" scheme="http://arxiv.org/schemas/atom"/>
+    <arxiv:comment>{comment text}</arxiv:comment>
+    <arxiv:journal_ref>{journal reference}</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/{article id}" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/{article id}" type="application/pdf"/>
+    <arxiv:primary_category term="{category abbr.}">
+    <category term="{category abbr.}"/>
+    <category term="{category abbr.}"/>
+    <category term="{category abbr.}"/>
   </entry>
 ```
