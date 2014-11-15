@@ -15,5 +15,7 @@ Yearly papercounts:
 | 1998          | 24052         | 2007          | 55144         |
 | 1999          | 27444         | 2008          | 58742         |
 
-Yearly paper count grows in a nearly linear fashion. 
+[CSV version](../statistics/papercounts.csv)
+
+
 
