@@ -15,6 +15,8 @@ Each field has an abbreviation assigned e.g .
 - quantitative finance : q-fin
 - statistics : stat
 
-Users can view yearly article listings under:
+Users can view article listings for each year under:
 
-http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year}
+http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year} (example for Mathematics and year 20*00*: http://arxiv.org/list/math/00)
+
+
