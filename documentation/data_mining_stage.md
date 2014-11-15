@@ -44,4 +44,9 @@ They're inside __dd__ tags inside __div__ with class="list-authors". Inside link
 
 Script [harvest_article_ids.py](../harvest_article_ids.py) extracts both article and author id, author fullname pairs and stores them in json file. It required field name, year and file produced by [generate_yearly_paper_counts.py](../generate_yearly_paper_counts.py) to know how many link are there to crawl.
 
+Getting rest of the article data
+--------------------------------
+
+arXiv has an API that allows to download info about specific articles given that we have their ids. Data is returned as an nicely-formatted XML. API URL: http://export.arxiv.org/api/query?id_list={comma_separated_list_of_ids}. We can provide up to 10 ids in one request. Returned XML is in form:
+
 
