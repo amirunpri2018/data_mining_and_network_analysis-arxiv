@@ -38,6 +38,10 @@ In each page articles are contained inside __dl__ tag. With pairs of __dt__ and 
 - YYMM.NNNN (e.g. 1411.0027 leads to astrophysics paper from 2014 October)
 - {field_name}/YYMM201 (e.g. math/9601201 leads to mathematics paper from 1996 January)
 
-From each article
+From each article we can also extract paper authors or more importantly their ids, since we can't get them through API.
+
+They're inside __dd__ tags inside __div__ with class="list-authors". Inside link tags full names are embedded and in href attribute exits id in form: {garbage}au:+{author_id}/{garbage}.
+
+Script [harvest_article_ids.py](../harvest_article_ids.py) extracts both article and author id, author fullname pairs and stores them in json file. It required field name, year and file produced by [generate_yearly_paper_counts.py](../generate_yearly_paper_counts.py) to know how many link are there to crawl.
 
 
