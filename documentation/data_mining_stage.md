@@ -31,8 +31,13 @@ Having that knowledge under belt we can generate set of links that we need to cr
 Extracting articles identificators
 ----------------------------------
 
-Using generated previously links we can can extract from each page useful information about article. We can extrac its id and ids of its authors along with their full names. Unfortunately listings don't show any info about the abstracts. For that we'll crawle arXiv API.
+Using generated previously links we can can extract from each page useful information about article. We can extract its id and ids of its authors along with their full names. Unfortunately listings don't show any info about the abstracts. For that we'll crawle arXiv API.
 
-In each page articles are contained inside <dl> tag. With pairs of <dt> and <dd> tags. <dt> tags contain
+In each page articles are contained inside __dl__ tag. With pairs of __dt__ and __dd__ tags. First link __dt__ has id embedded in it href in form: abs/{id}. There are at least two ID types on arXiv (and they're not interchangeable): 
+
+- YYMM.NNNN (e.g. 1411.0027 leads to astrophysics paper from 2014 October)
+- {field_name}/YYMM201 (e.g. math/9601201 leads to mathematics paper from 1996 January)
+
+From each article
 
 
