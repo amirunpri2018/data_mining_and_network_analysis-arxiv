@@ -19,6 +19,8 @@ Users can view article listings for each year under list route. Results are page
 
 http://arxiv.org/list/{field_abbreviation}/{last_two_digits_of_year}?skip={number_of_articles}&show={number_of_articles}
 
-Example: http://arxiv.org/list/math/00?skip=50&show=25
+Example: http://arxiv.org/list/math/00?skip=50&show=25 (show articles for Mathematics and year 2000 from 50 to 75)
+
+It is helpful to know beforehan how many articles for given field and year are there. Script [generate_yearly_paper_counts.py](generate_yearly_paper_counts.py) does precisely that and dumps the results into a json file.
 
 
