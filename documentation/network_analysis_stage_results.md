@@ -8,8 +8,6 @@ Approx. full diameter: 13 (the longest shortest path between two nodes)
 
 90% effective diameter: 5.175473
 
-Clustering coefficient: 0.566830452965
-
 # Node degree distribution
 
 ![Node degree distribution](node_degree_distribution.png "Node degree distribution")
@@ -32,6 +30,19 @@ As we can see node degree distribution indicates a scale-free network
 
 
 As we can see we have a plethora of small components and one big component which contains ~93% of all authors.
+
+# More subtle info
+
+Clustering coefficient: 0.566830452965
+
+# Efficiency 
+- defined as harmonic mean of all shortest paths between each pair of nodes
+- only for largest component, because we can find value for nodes in disconnected components
+- such a quantity is an indicator of the traffic capacity of a network
+- from Bocaletti, Latora, Moreno, Chavez, Hwang "Complex networks: Structure and dynamics"
+
+
+
 
 
 
