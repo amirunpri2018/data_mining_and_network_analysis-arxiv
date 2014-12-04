@@ -1,3 +1,5 @@
+__author__ = 'Michał Drzał'
+
 import json
 import os
 import os.path
@@ -61,7 +63,3 @@ else:
 				
 
 		print(categories)
-
-		
-
-

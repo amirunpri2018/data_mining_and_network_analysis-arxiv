@@ -1,4 +1,4 @@
-import json, os, re, itertools,sys
+import json, os, re, itertools,sys,os.path
 
 def add_edge(graph, n1, n2):
 	if (n1,n2) in graph:
@@ -29,18 +29,21 @@ else:
 				for pair in itertools.combinations_with_replacement(authors, 2):
 					add_edge(pairs, pair[0], pair[1])
 				
-
 	auths = list(auths)
 
-	with open('nodes.json', "w") as ofile:
+	target_dir = "data"
+	if not os.path.exists(target_dir):
+		os.makedirs(target_dir)
+
+	print("Saving nodes to file")
+	with open(target_dir + '/nodes.json', "w") as ofile:
 		json.dump(auths, ofile, indent=4)
 
-	print("Transforming to dict")
 	node_dict = { x: i for i,x in enumerate(auths) }
 	auths = None
 
-	print("Writing")
-	with open('edges.csv',"w") as fp:
+	print("Saving edges to file")
+	with open(target_dir + '/edges.csv',"w") as fp:
 		for key in pairs:
 			line = str(node_dict[key[0]]) + " " + str(node_dict[key[1]]) +" " + str(pairs[key])
 			print(line, file = fp )
