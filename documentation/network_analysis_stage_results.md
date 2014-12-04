@@ -26,6 +26,7 @@ As we can see node degree distribution indicates a scale-free network
 | 6	             | 73            | 15             | 1             |
 | 7              | 46            | 16             | 1             |
 | 8              | 20            | 17             | 1             |
+| 254106         |	1            |
 
 
 As we can see we have a plethora of small components and one big component which contains ~93% of all authors.
