@@ -8,9 +8,14 @@ Collected data was analyzed at two levels:
 
 ### Full coauthorship network
 
-A large network consisting of >200k nodes and >4000k edges. 
+Nodes: 274014
+Edges: 4471669
 
 ### Coauthorship networks for each year
 
 In order to analyze network dynamics coauthorship graph is analyzed on a yearly basis.
+
+## Extracted statistics
+
+Everything that was possible to extract. More in network analysis results.
 
