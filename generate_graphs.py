@@ -5,8 +5,6 @@ import re
 import itertools
 import sys
 
-
-
 def add_edge(graph, n1, n2):
 	if (n1,n2) in graph:
 		graph[(n1,n2)] += 1
