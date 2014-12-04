@@ -10,4 +10,5 @@ Approx. full diameter:    13 (the longest shortest path between two nodes)
 
 # Node degree distribution
 
-![Node degree distribution][node_degree_distribution.png ]
+![alt text](node_degree_distribution.png "Logo Title Text 1")
+
