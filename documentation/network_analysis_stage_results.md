@@ -10,7 +10,11 @@ Approx. full diameter:    13 (the longest shortest path between two nodes)
 
 # Node degree distribution
 
-![alt text](node_degree_distribution.png "Logo Title Text 1")
+![Node degree distribution](node_degree_distribution.png "Node degree distribution")
+
+As we can see node degree distribution indicates a scale-free network
+
+# Counts of components for each size
 
 | Component size | Count         |
 | -------------- |:-------------:|
@@ -32,6 +36,8 @@ Approx. full diameter:    13 (the longest shortest path between two nodes)
 | 16             | 1             |
 | 17             | 1             |
 | 254106         | 1             |
+
+As we can see we have a plethora of small components and one big component which contains ~93% of all authors.
 
 
 
