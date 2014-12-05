@@ -35,13 +35,6 @@ As we can see we have a plethora of small components and one big component which
 
 Clustering coefficient: 0.566830452965
 
-# Efficiency 
-- defined as harmonic mean of all shortest paths between each pair of nodes
-- only for largest component, because we can find value for nodes in disconnected components
-- such a quantity is an indicator of the traffic capacity of a network
-- from Bocaletti, Latora, Moreno, Chavez, Hwang "Complex networks: Structure and dynamics"
-
-Since total number of paths to compute is approximately equal to 32 284 M the computation of the network efficiency is computed on a subsampled set nodes for the largest component. Approximately 10% of nodes where selected randomly and had their shortest paths to all other nodes computed. Inverted sums for selected nodes are available in statistics folder starting with harmonic_means_of_shortest_paths. 
 
 
 
