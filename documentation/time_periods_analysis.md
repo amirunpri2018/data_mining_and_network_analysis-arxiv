@@ -38,7 +38,7 @@ Generated communites are available [here](https://drive.google.com/folderview?id
 
 ##  Betweenness centrality
 
-Betweenness centrality was computed for each author in each batch was computed. Due to limited computing power centrality for each node was computed on a 1% of all other nodes. Computed with [Snap.py](http://snap.stanford.edu/snappy/) library [GetBetweennessCentr](http://snap.stanford.edu/snappy/doc/reference/GetBetweennessCentr.html) procedure.
+[Betweenness centrality](http://en.wikipedia.org/wiki/Betweenness_centrality) was computed for each author in each batch was computed. Due to limited computing power centrality for each node was computed on a 1% of all other nodes. Computed with [Snap.py](http://snap.stanford.edu/snappy/) library [GetBetweennessCentr](http://snap.stanford.edu/snappy/doc/reference/GetBetweennessCentr.html) procedure.
 
 Results available in [betweenness directory]().
 
