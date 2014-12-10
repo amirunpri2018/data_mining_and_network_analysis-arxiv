@@ -34,3 +34,5 @@ For finding communities we used [cfinder](http://www.cfinder.org/), which uses [
 
 2011 - 2013 - number of exact cliques=1867, number of approx. cliques=315
 
+Generated communites are available [here](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLTWw0czJ5MUxMQ28&usp=sharing).
+
