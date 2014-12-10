@@ -8,14 +8,16 @@ Collected data was analyzed at two levels:
 
 ### Full coauthorship network
 
-Nodes: 274014
-Edges: 4471669
+Some basic statistics are shown at global scale of the network.
 
-### Coauthorship networks for each year
+### Coauthorship network division into time periods
 
-In order to analyze network dynamics coauthorship graph is analyzed on a yearly basis.
+In order to analyze network dynamics coauthorship graph is analyzed in four time periods:
+1991 - 1999
+2000 - 2004
+2005 - 2010
+2011 - 2013
 
-## Extracted statistics
+### Coauthorship networks visualisation
 
-Everything that was possible to extract. More in network analysis results.
-
+In order to visualise coauthorship graphs are splitted by year and field.
