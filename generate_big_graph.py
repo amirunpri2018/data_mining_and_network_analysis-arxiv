@@ -1,3 +1,5 @@
+__author__ = 'Michał Drzał'
+
 import json, os, re, itertools,sys,os.path
 
 def add_edge(graph, n1, n2):
@@ -31,7 +33,7 @@ else:
 				
 	auths = list(auths)
 
-	target_dir = "data"
+	target_dir = sys.argv[1] + "/data"
 	if not os.path.exists(target_dir):
 		os.makedirs(target_dir)
 
