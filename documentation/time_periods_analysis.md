@@ -2,13 +2,13 @@
 
 Coauthorship was divided into batches based on publication date of articles into four time periods:
 
-1991 - 1999
+1991 - 1999 - batch1.zip
 
-2000 - 2004
+2000 - 2004 - batch2.zip
 
-2005 - 2010
+2005 - 2010 - batch3.zip
 
-2011 - 2013
+2011 - 2013 - batch4.zip
 
 
 ## Community analysis
