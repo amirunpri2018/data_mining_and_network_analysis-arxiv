@@ -15,5 +15,5 @@ Minimum edge weights (common publications between authors) considered were follo
 Command used: 
 
 ```
-
+CFinder_commandline64.exe -i path/to/graph.csv -o path/to/output_folder -w miminum_weight -W 1000 -U -t 2
 ```
