@@ -84,10 +84,10 @@ Constructed graphs
 
 Dataset contains also  extracted graph data:
 - [nodes.json](https://drive.google.com/file/d/0B8yQRmV2S-ZLT1pvSzJ3YUpOd0U/view?usp=sharing) contain a list of all authours in the arXiv up to 2013 represented as dictionary: author string id and corresponding integer id, ~200k authors
-- [total.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLTUc0cWNmem1ocmM/view?usp=sharing) contains a list of edges between authors from nodes.json, edge is created when two authors write a paper together (with weight 1) and its weight is incremented with each next publication (nodes.zip + edges.zip create a full coauthorship graph for arXiv up to 2013)
-- [grouped.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLeHhNRVVEekk0VXM/view?usp=sharing) contains a four graphs for time periods: 1991-1999, 2000-2004, 2005-2009, 2010-2013
-- [single.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLNGJObFJPWlItVmM/view?usp=sharing) contains graphs for each year
-- [yearly field graphs](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLREh4ZUtKc1llblE&usp=sharing) coauthorship graphs for each field and year in json
+- [total.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLTUc0cWNmem1ocmM/view?usp=sharing) contains a list of edges between authors from nodes.json, edge is created when two authors write a paper together (with weight 1) and its weight is incremented with each next publication, node ids are numerical for easier analysis and they are mapped to original string ids by using nodes.json
+- [grouped.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLeHhNRVVEekk0VXM/view?usp=sharing) contains a four graphs for time periods: 1991-1999, 2000-2004, 2005-2009, 2010-2013, node ids are numerical for easier analysis and they are mapped to original string ids by using nodes.json
+- [single.zip](https://drive.google.com/file/d/0B8yQRmV2S-ZLNGJObFJPWlItVmM/view?usp=sharing) contains graphs for each year, node ids are numerical for easier analysis and they are mapped to original string ids by using nodes.json
+- [yearly field graphs](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLREh4ZUtKc1llblE&usp=sharing) coauthorship graphs for each field and year in json, node ids are in a stringified form
 
-[Created dataset](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLQTVENmhycHVTM00&usp=sharing)
+[Whole dataset](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLQTVENmhycHVTM00&usp=sharing)
 
