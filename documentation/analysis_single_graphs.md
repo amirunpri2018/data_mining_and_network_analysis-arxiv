@@ -17,3 +17,13 @@ Command used:
 ```
 CFinder_commandline64.exe -i path/to/graph.csv -o path/to/output_folder -w miminum_weight -W 1000 -U -t 2
 ```
+
+[Generated data](https://drive.google.com/file/d/0B8yQRmV2S-ZLN3l2ZlNJX0Y4ck0/view?usp=sharing)
+
+# Centrality
+
+## Betweeness centrality
+
+
+
+## Eigencentrality
