@@ -79,6 +79,8 @@ Data mining stage results
 
 Dataset contains zipped [article metadata for each year](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLcS1oQXM0bzYxU1k&usp=sharing). 
 
+[Crawling scripts](../scripts/crawling)
+
 Constructed graphs
 -----------------
 
@@ -91,3 +93,4 @@ Dataset contains also  extracted graph data:
 
 [Whole dataset](https://drive.google.com/folderview?id=0B8yQRmV2S-ZLQTVENmhycHVTM00&usp=sharing)
 
+[Graph generation scripts](../scripts/graph_generation)
