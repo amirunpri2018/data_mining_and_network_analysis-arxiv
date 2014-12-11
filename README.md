@@ -4,18 +4,12 @@ Data mining and Network Analysis: Arxiv
 Description
 -----------
 
-Project developed during Data Mining Course at AGH University of Science And Technology. Project has two stages:
+Project developed during Data Mining Course at AGH University of Science And Technology.
 
-- [data mining stage](documentation/data_mining_stage.md)
-- [network analysis stage](documentation/network_analysis_stage.md)
-
-Results
--------
-
-- [data mining stage results](documentation/data_mining_stage_results.md)
-- [preliminary data analysis results](documentation/preliminary_data_analysis_results.md)
-- [network analysis stage results](documentation/network_analysis_stage_results.md)
-
+- [data mining and graph formation](documentation/data_mining_and_graph_creation.md)
+- [entire coauthorship graph analysis](documentation/analysis_total_graph.md)
+- [grouped coauthorship graphs analysis](documentation/analysis_grouped_graphs.md)
+- [single coauthorship graphs analysis](documentation/analysis_single_graphs.md)
 
 
 Project members
