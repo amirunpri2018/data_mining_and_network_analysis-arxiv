@@ -31,7 +31,7 @@ print("starting")
 Nodes = snap.TIntFltH()
 Edges = snap.TIntPrFltH()
 MxScc = snap.GetMxScc(G1)
-snap.GetBetweennessCentr(MxScc, Nodes, Edges, 0.01)
+snap.GetBetweennessCentr(MxScc, Nodes, Edges, 0.05)
 with open(sys.argv[1] + "/data/centralities.csv","w") as f:
 	for node in Nodes:
 	    print( "%d %f" % (node, Nodes[node]), file= f)
